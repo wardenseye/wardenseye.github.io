@@ -1,13 +1,16 @@
 body {
     font-family: 'Poppins', sans-serif !important;
     background-color: #23272A;
+    background-image: url('bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
     color: #fff;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    border-top: 6px #7289DA solid !important;
+    border-top: 0px #7289DA solid !important;
     font-size: 16px;
 }
 
