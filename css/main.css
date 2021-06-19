@@ -7,7 +7,6 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-    opacity: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -47,7 +46,7 @@ body {
 .heading {
     padding: 160px 50px !important;
     color: #fff !important;
-    background-image: url("https://auxetite-cdn.sirv.com/wavy-blurple-by-nouridio.svg") !important;
+    background-image: url("wave.svg") !important;
     background-position: bottom !important;
     background-size: 200% !important;
     background-repeat: no-repeat !important;
@@ -66,33 +65,36 @@ body {
 
 .features {
     text-align: center !important;
-    background: #7289DA !important;
+    color: #0B4C5F !important;
+    background: #061419 !important;
     padding: 60px 50px !important
 }
 .features .title {
     font-size: 40px !important;
-    color: #ffffff !important;
+    color: #088A85 !important;
     line-height: 70px !important;
 }
 
 .features .subtitle {
     font-size: 20px !important;
-    color: #a2a8bd;
+    color: #0B605F !important;
 }
 
 .cards {
     margin-top: 30px !important;
+    color: #0A2B28 !important;
 }
 
 .card {
     border-radius: 5px !important;
     box-shadow: none !important;
+    background-color: #088A85 !important;
 }
 
 .card-title {
     font-size: 28px !important;
     font-weight: 600 !important;
-    color: #7289DA !important;
+    color: #061919 !important;
 }
 
 .statistics {
