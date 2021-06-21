@@ -5,6 +5,7 @@ $.getJSON("https://api.github.com/gists/9bcfedae0653364aad9e43c7882433f2", funct
     
     //Insert stats.
     $("#statss").text(numberWithCommas(result.s));
+    $("#statsc").text(numberWithCommas(result.c));
 })
 
 function numberWithCommas(x) {
