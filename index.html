@@ -32,10 +32,16 @@
                 <a class="nav-link" href="#">About</a>
             </li>-->
             <li class="nav-item">
-                <a class="nav-link" href="#fs">Features</a>
+                <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Commands</a>
+                <a class="nav-link" href="#statistics">Statistics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#commands">Commands</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#support">Get Support</a>
             </li>
             <!--<li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,7 +64,7 @@
     <a class="btn btn-secondary btn-lg" href="https://discord.com/api/oauth2/authorize?client_id=838032479419367444&permissions=3072&scope=bot" target="_blank" role="button">Add to server</a>
     <br /><br /><br /><br /><br /><br />
 </div>
-<div id="fs" class="features">
+<div id="features" class="features">
     <div class="title">Features</div>
     <div class="subtitle">Providing you with the most accurate data possible!</div>
     <div class="cards">
@@ -121,7 +127,8 @@
 	crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 
-<div class="statistics">
+<div class="statistics" id="statistics">
+	<h2 style="font-weight: bold">Statistics</h2>
     <div class="cards">
         <div class="card statistic" style="width: 18rem;">
             <div class="card-body">
@@ -143,7 +150,41 @@
         </div>
     </div>
 </div>
-<div class="start">
+<div class="commands" id="commands">
+	<h2 style="font-weight: bold">Commands</h2>
+	<table style="width:75%", align="center">
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+    <th>Syntax</th>
+  </tr>
+  <tr>
+    <td>champ</td>
+    <td>Get information regarding a specific champion</td>
+    <td>.w champ [positon] [name]</td>
+  </tr>
+  <tr>
+    <td>help</td>
+    <td>Shows a list of commands or help regarding a certain command</td>
+    <td>.w help [command]</td>
+  </tr>
+  <tr>
+    <td>info</td>
+    <td>Finds the stats of a certain summoner</td>
+    <td>.w info [server] [summoner's name]</td>
+  </tr>
+  <tr>
+    <td>live</td>
+    <td>Checks the details of an ongoing game</td>
+    <td>.w info [server] [summoner's name]</td>
+  </tr>
+  <tr>
+    <td>matches</td>
+    <td>Finds the statistics of the last three matches of a certain summoner</td>
+    <td>.w info [server] [summoner's name]</td>
+  </tr>
+</table>
+<div class="start" id="support">
     <div class="card">
         <div class="card-body">
             <div class="title">Get support!</div>
